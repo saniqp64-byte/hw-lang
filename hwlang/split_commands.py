@@ -18,4 +18,5 @@ def split_comands(file):
             sys.exit()
 
     return commands
+    
             

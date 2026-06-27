@@ -10,4 +10,4 @@ file_path = sys.argv[1]
 
 # Пример использования:
 commands = split_comands(file_path)
-run(commands)
+run(commands) 
