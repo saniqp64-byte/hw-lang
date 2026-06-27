@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 from split_commands import split_comands
 from run_commands import run

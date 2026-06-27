@@ -11,5 +11,4 @@ def run(commands: dict):
             elif value == 'input':
                 input(key)
     except:
-        print("you invalid") 
-    
+        print("you invalid")

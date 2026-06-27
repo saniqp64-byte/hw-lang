@@ -1,10 +1,12 @@
 #!/bin/bash
 
-# Проверяем, передал ли пользователь путь к файлу
+# Жестко прописываем путь, если переменная не подхватывается
+HWL_SCRIPT="/home/devLogger/.config/hwlang/hwl.py"
+
 if [ -z "$1" ]; then
-    echo "Использование: hwl <путь_к_файлу.hwl>"
+    echo "Ошибка: не указан файл"
     exit 1
 fi
 
-
-python3 $HWLPATH "$1" 
+# Явно вызываем Python3 и твой интерпретатор
+python3 "$HWL_SCRIPT" "$1"
